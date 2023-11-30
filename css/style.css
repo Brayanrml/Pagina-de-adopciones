@@ -17,19 +17,30 @@ header {
   padding: 20px;
   background-color: rgba(204, 204, 27, 0.405);
   border: 0.5px solid rgb(204, 204, 19);
-  position: relative;
+  /*position: relative;*/
   margin-bottom: 100px;
   margin-left: 0;
   margin-right: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.logo1 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
 }
 
 header h1 {
-  position: absolute;
-  top: 35px;
-  left: 120px;
   font-family: Luxury;
   font-size: 45px;
   color: black;
+}
+
+header div a {
+  text-decoration: none;
 }
 
 header a img {
