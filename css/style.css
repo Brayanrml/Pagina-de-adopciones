@@ -344,7 +344,7 @@
     margin-right: 8px;
   }
   
-  footer section {
+  /* footer section {
     display: flex;
     flex-direction: row-reverse;
     flex-wrap: wrap;
@@ -352,7 +352,7 @@
     align-items: center;
     margin-bottom: 20px;
     margin-top: -8px;
-  }
+  } */
   
   footer {
     background-color: rgba(204, 204, 27, 0.405);
@@ -364,16 +364,16 @@
     bottom: 0;
   }
   
-  footer .redes {
+  /* footer .redes {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
     margin-bottom: -10px;
     
-  }
+  } */
   
-  footer section h1 {
+  footer div h1 {
   
     font-family: Luxury;
     font-size: 20px;
