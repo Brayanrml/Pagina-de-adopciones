@@ -4,14 +4,26 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Proyecto Huellitas | Contacto</title>
+    <!--Link de bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <!--Link de css-->
     <link rel="stylesheet" href="../css/style.css">
+    <!--Link del logo-->
     <link rel="shortcut icon" href="../media/logo.png" type="image/x-icon">
 </head>
 <body>
     <header>
+
+        <input type="checkbox" id="btn_menu">
+        <label for="btn_menu">
+            <img src="../media/menu (1).png" alt="menu hamburguesa">
+        </label>
+
+        <div class="logo1">
             <a href="../index.html"><img src="../media/logo.png" alt="logo"></a>
-            <a href="../index.html"><h1>Huellitas</h1></a>
-        <nav>
+            <a href="../index.html"><h1 class="titulo-principal">Huellitas</h1></a>
+        </div>
+        <nav class="menu">
             <ul>
                 <li><a href="../index.html">Inicio</a></li>
                 <li><a href="./nosotros.html">Nosotros</a></li>
@@ -32,27 +44,27 @@
         </section>
         <!--Formulario de contacto-->
         <section>
-            <form class="contenedor-flex">
-                <div>
-                    <label for="nombre">Nombre:</label>
-                    <input type="text" id="nombre">
+            <div class="contenedor-flex">
+            <form>
+                <div class="mb-3">
+                  <label for="exampleInputName" class="form-label">Nombre</label>
+                  <input type="name" class="form-control" id="exampleInputName">
+                <div class="mb-3">
+                  <label for="exampleInputLastname" class="form-label">Apellido</label>
+                  <input type="name" class="form-control" id="exampleInputLastname">
                 </div>
-                <div>
-                    <label for="mail">Email:</label>
-                    <input type="email" id="mail">
-                </div>
-                <div>
-                    <label for="telefono">Teléfono:</label>
-                    <input type="text" id="telefono">
-                </div>
-                <div>
-                    <label class="box" for="mensaje">Deja tu mensaje acá:</label>
-                    <textarea class="box" name="mensaje" id="mensaje" cols="40" rows="10"></textarea>
-                </div>
-                <div id="boton">
-                    <input type="button" value="Enviar">
-                </div>
-            </form>
+                <div class="mb-3">
+                    <label for="exampleInputEmail1" class="form-label">Email</label>
+                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                    <div id="emailHelp" class="form-text">Nunca vamos a divulgar tu email.</div>
+                  </div>
+                  <div class="mb-3">
+                    <label for="exampleFormControlTextarea1" class="form-label">Déjanos tu mensaje acá:</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" cols="80" rows="10"></textarea>
+                  </div>
+                <button type="submit" class="btn btn-primary">Enviar</button>
+              </form>
+            </div>
         </section>
     </main>
 
@@ -71,8 +83,17 @@
         </div>
     </footer>
 
+<<<<<<< HEAD
 </body>
 
 
+=======
+    <!--Script de bootstrap-->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
+</body>
+
+>>>>>>> ramasass
 
 </html>
