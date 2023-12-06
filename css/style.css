@@ -44,6 +44,7 @@ header h1 {
   font-family: Luxury;
   font-size: 45px;
   color: black;
+  font-weight: bold;
 }
 
 header div a {
@@ -79,6 +80,7 @@ body {
   font-family: Luxury;
   text-align: center;
   font-size: 50px;
+  font-weight: bold;
 }
 
 .main-inicio section .contenedor-inicio .card-inicio #titulo-video {
@@ -88,6 +90,7 @@ body {
   margin-bottom: 60px;
   margin-top: 60px;
   font-size: 40px;  
+  font-weight: bold;
 }
 
 .main-inicio section .contenedor-inicio {
@@ -133,6 +136,7 @@ body {
   font-size: 30px;
   text-align: center;
   margin-bottom: 20px;
+  font-weight: bold;
 }
 
 .main-inicio section .card-inicio1 p {
@@ -157,6 +161,7 @@ body {
   font-family: Luxury;
   text-align: center;
   font-size: 50px;
+  font-weight: bold;
 
 }
 
@@ -221,6 +226,7 @@ margin: 0 auto;
   margin-bottom: 100px;
   font-family: Luxury;
   font-size: 40px;
+  font-weight: bold;
 }
 
 .main-adopta section .contenedor-flex {
@@ -233,8 +239,10 @@ margin: 0 auto;
 }
 
 .main-adopta section .contenedor-flex .card {
+display: flex;
+justify-items: center;
 width: 350px;
-height: 400px;
+height: 450px;
 background-color: rgba(204, 204, 27, 0.405);
 
 box-shadow: 11px 10px 38px 1px rgba(0,0,0,0.75);
@@ -249,7 +257,7 @@ box-shadow: 11px 10px 38px 1px rgba(0,0,0,0.75);
   position: relative;
   left: 74px;
   margin-top: 10px;
-  margin-bottom: 20px;
+  margin-bottom: 50px;
 }
 
 .main-adopta section .contenedor-flex .card .card-text {
@@ -257,7 +265,7 @@ box-shadow: 11px 10px 38px 1px rgba(0,0,0,0.75);
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 170px;
+  height: 200px;
   text-align: center;
   margin-left: 10px;
   margin-right: 10px;
@@ -270,6 +278,7 @@ box-shadow: 11px 10px 38px 1px rgba(0,0,0,0.75);
   text-align: center;
   font-size: 50px;
   margin-bottom: 150px;
+  font-weight: bold;
 }
 
 .main-galeria section .contenedor-galeria {
@@ -452,12 +461,12 @@ footer section h1 {
     header nav ul{
       flex-direction: column;
       align-items: center;
-      padding: 10px;
+      padding: 1px;
     }
 
     .menu {
       position: absolute;
-      top: 169px;
+      top: 182px;
       background-color: rgba(204, 204, 27, 0.405);
       width: 100vw;
       visibility: hidden;
