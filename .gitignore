@@ -1,6 +1,5 @@
-package-lock.json
-package.json
-main.scss
-main.css
-style.css.map
+.json
+node_modules
 scss
+style.css.map
+main.css
