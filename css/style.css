@@ -58,6 +58,7 @@ header nav ul {
   display: flex;
   list-style: none;
   column-gap: 40px;
+  padding-left: 0px;
 }
 header nav ul li a {
   text-decoration: none;
@@ -190,32 +191,25 @@ footer div h1 {
   row-gap: 10px;
   column-gap: 10px;
   flex-wrap: wrap;
-  justify-content: space-evenly;
+  justify-content: space-around;
 }
 .main-adopta section .contenedor-flex .card {
   display: flex;
-  justify-items: center;
+  align-items: center;
+  justify-content: space-around;
   width: 350px;
   height: 500px;
   background-color: rgba(204, 204, 27, 0.405);
   box-shadow: 11px 10px 38px 1px rgba(0, 0, 0, 0.75);
-  gap: 20px;
 }
 .main-adopta section .contenedor-flex .card img {
-  width: 100%;
   height: 150px;
   width: 220px;
-  position: relative;
-  left: 74px;
-  margin-top: 10px;
-  margin-bottom: 50px;
 }
 .main-adopta section .contenedor-flex .card .card-text {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
-  height: 200px;
   text-align: center;
   margin-left: 10px;
   margin-right: 10px;
@@ -300,15 +294,11 @@ footer div h1 {
   /*Header*/
   header {
     flex-direction: row;
+    justify-content: space-around;
   }
   header .logo1 {
     display: flex;
     flex-direction: column;
-  }
-  header .logo1 nav ul {
-    display: flex;
-    column-gap: 20px;
-    margin-right: 1px;
   }
   /*Main Inicio*/
   .main-inicio section .contenedor-inicio {
@@ -331,27 +321,26 @@ footer div h1 {
 @media (max-width: 768px) {
   /*Header*/
   header {
-    flex-direction: row-reverse;
-    justify-content: space-around;
+    flex-direction: column-reverse;
+    justify-content: center;
   }
   header #btn_menu:checked ~ .menu {
     visibility: visible;
   }
   header .menu {
     position: absolute;
-    top: 182px;
+    top: 242px;
     background-color: rgba(204, 204, 27, 0.405);
     width: 100vw;
     visibility: hidden;
     z-index: 1;
+    right: 0px;
   }
   header .logo1 {
-    width: 10px;
+    width: 50vw;
   }
   header label {
     display: block;
-    position: relative;
-    left: 100px;
   }
   header label img {
     width: 60px;
@@ -377,6 +366,19 @@ footer div h1 {
   .card-video {
     width: auto;
     height: auto;
+  }
+}
+@media (max-width: 410px) {
+  .main-inicio h1 {
+    font-size: 2rem;
+  }
+  .main-inicio section .contenedor-inicio .card-inicio #titulo-video {
+    font-size: 2rem;
+    text-align: center;
+  }
+  .main-inicio section .contenedor-inicio .card-inicio .card-video {
+    width: 30vh;
+    height: 30vw;
   }
 }
 
