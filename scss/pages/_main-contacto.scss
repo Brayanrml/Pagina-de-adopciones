@@ -1,0 +1,42 @@
+/*Main Contacto*/
+.main-contacto {
+    #cont-titulo {
+        h1 {
+            font-family: Luxury;
+            text-align: center;
+            font-size: 45px;
+            margin-left: 15px;
+            font-weight: bold;
+        }
+    }
+    section {
+        #cont-subtitulo {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            text-align: center;
+            margin: 80px 50px;
+
+            h2 {
+
+            }
+        }
+    }
+    section {
+        .contenedor-flex {
+            font-weight: bold;
+            background-color: rgba(204, 204, 27, 0.405);
+            padding: 50px 50px;
+            width: 500px;
+            height: 700px;
+            box-shadow: 11px 10px 38px 1px rgba(0,0,0,0.75);
+          -webkit-box-shadow: 11px 10px 38px 1px rgba(0,0,0,0.75);
+          -moz-box-shadow: 11px 10px 38px 1px rgba(0,0,0,0.75);
+          margin: 0 auto;
+          
+            form {
+                .mb-3 {
+
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,27 @@
+/*Estilos footer*/
+footer {
+    background-color: rgba(204, 204, 27, 0.405);
+    padding: 20px;
+    position: relative;
+    margin-top: 100px;
+    margin-left: 0;
+    margin-right: 0;
+    bottom: 0;
+
+    img {
+        width: 60px;
+        height: 40px;
+    }
+    #logo-flex {
+        width: 80px;
+        height: 60px;
+        margin-right: 8px;
+    }
+    div {
+        h1 {
+            font-family: Luxury;
+            font-size: 20px;
+            font-weight: bold;
+        }
+    }
+}

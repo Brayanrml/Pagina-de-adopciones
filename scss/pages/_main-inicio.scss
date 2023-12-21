@@ -1,0 +1,88 @@
+/*Main Inicio*/
+.main-inicio {
+    h1 {
+        font-family: Luxury;
+        text-align: center;
+        font-size: 50px;
+        font-weight: bold;
+    }
+    section {
+        .contenedor-inicio {
+            display: grid;
+            grid-row-gap: 100px;
+            grid-template-columns: repeat(2, 1fr);
+            grid-template-rows: repeat(3, auto);
+            grid-template-areas: 
+            "grid1 grid2"
+            "grid1 grid2"
+            "grid3 grid3"
+            ;
+            margin: 50px;
+            background-color: rgba(204, 204, 27, 0.405);
+
+            .card-inicio {
+
+                margin-left: 50px;
+                margin-right: 50px;
+                grid-area: grid2;
+
+                #titulo-video {
+                    font-family: Luxury;
+                    display: flex;
+                    justify-content: center;
+                    margin-bottom: 60px;
+                    margin-top: 60px;
+                    font-size: 40px;  
+                    font-weight: bold;
+                }
+                h2{
+
+                }
+                .card-video {
+
+                }
+            }
+            .card-inicio1 {
+                margin-left: 50px;
+                margin-right: 50px;
+                grid-area: grid1;
+
+                .card-texto1{
+
+                }
+                p {
+                    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                    font-size: 16px;
+                    margin-bottom: 50px;
+                    margin-top: 50px;
+                    text-align: justify;
+                }
+            }
+            .card-inicio2 {
+                margin-left: 50px;
+                margin-right: 50px;
+                grid-area: grid3;
+                .card-titulo2 {
+
+                }
+                h2 {
+                    font-family: Luxury;
+                    font-size: 30px;
+                    text-align: center;
+                    margin-bottom: 20px;
+                    font-weight: bold;
+                }
+                .card-texto2 {
+
+                }
+                p {
+                    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                    font-size: 16px;
+                    margin-bottom: 50px;
+                    margin-top: 50px;
+                    text-align: justify;
+                }
+            }
+        }
+    }
+}

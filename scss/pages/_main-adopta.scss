@@ -1,0 +1,49 @@
+/*Main Adopta*/
+.main-adopta {
+    section {
+        h1 {
+            text-align: center;
+            margin-bottom: 100px;
+            font-family: Luxury;
+            font-size: 40px;
+            font-weight: bold;
+        }
+        .contenedor-flex {
+            display: flex;
+            row-gap: 10px;
+            column-gap: 10px;
+            flex-wrap: wrap;
+            justify-content: space-around;
+
+            .card {
+                display: flex;
+                align-items: center;
+                justify-content: space-around;
+                width: 350px;
+                height: 500px;
+                background-color: rgba(204, 204, 27, 0.405);               
+                box-shadow: 11px 10px 38px 1px rgba(0,0,0,0.75);
+
+                img {
+                    height: 150px;
+                    width: 220px;
+                }
+                .card-text {
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    text-align: center;
+                    margin-left: 10px;
+                    margin-right: 10px;
+
+                    h2 {
+
+                    }
+                    p {
+
+                    }
+                }
+            }
+        }
+    }
+}
