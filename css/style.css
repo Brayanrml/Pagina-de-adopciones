@@ -48,7 +48,7 @@ header div a img {
   width: 90px;
   height: 70px;
 }
-header div a h1 {
+header div a h2 {
   font-family: Luxury;
   font-size: 45px;
   color: black;
@@ -87,7 +87,7 @@ footer #logo-flex {
   height: 60px;
   margin-right: 8px;
 }
-footer div h1 {
+footer div h2 {
   font-family: Luxury;
   font-size: 20px;
   font-weight: bold;
@@ -183,7 +183,7 @@ footer div h1 {
   text-align: center;
   margin-bottom: 100px;
   font-family: Luxury;
-  font-size: 40px;
+  font-size: 50px;
   font-weight: bold;
 }
 .main-adopta section .contenedor-flex {
@@ -269,7 +269,7 @@ footer div h1 {
 .main-contacto #cont-titulo h1 {
   font-family: Luxury;
   text-align: center;
-  font-size: 45px;
+  font-size: 50px;
   margin-left: 15px;
   font-weight: bold;
 }
